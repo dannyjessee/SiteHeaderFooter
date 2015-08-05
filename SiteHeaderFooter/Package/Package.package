@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="510e38a8-7119-47cd-be2a-de7497763e0f" 
+        solutionId="510e38a8-7119-47cd-be2a-de7497763e0f" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SiteHeaderFooter"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="ad6c0a12-97bc-48be-b3e1-9667e9e7e454" />
+  </features>
+</package>
