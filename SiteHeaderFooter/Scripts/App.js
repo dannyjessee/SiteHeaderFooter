@@ -108,5 +108,5 @@ DJ.AddInInstall.HostWebSetup = function () {
 }();
 
 $(document).ready(function () {
-    DJ.AddInInstall.HostWebSetup.execute();
+    ExecuteOrDelayUntilScriptLoaded(DJ.AddInInstall.HostWebSetup.execute, "sp.js");
 });
