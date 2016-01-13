@@ -64,7 +64,7 @@ DJ.AddInInstall.HostWebSetup = function () {
     onProvisionFileSuccess = function () {
         $('#fileDeployOutput').html('<font color=green><b>Files deployed successfully to host web.</b></font><br/>');
     },
-    onProvisionFileFail = function () {
+    onProvisionFileFail = function (sender, args) {
         alert('Failed to provision file into host web. Error: ' + args.get_message());
     },
 
