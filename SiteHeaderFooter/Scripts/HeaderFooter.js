@@ -10,7 +10,11 @@
                 getWebPropertiesSucceeded = function () {
                     var allProps = webProperties.get_fieldValues();
                     if (allProps.CustomSiteHeaderEnabled == "true") {
-                        $("<div id='customHeader' class='ms-dialogHidden' style='background-color:" + allProps.CustomSiteHeaderBgColor + ";color:" + allProps.CustomSiteHeaderColor + ";padding:3px;text-align:center'><b>" + allProps.CustomSiteHeaderText + "</b></div>").insertBefore("#suiteBarTop");
+                        if (allProps.CustomSiteHeaderLocation == "above") {
+                            $("<div id='customHeader' class='ms-dialogHidden' style='background-color:" + allProps.CustomSiteHeaderBgColor + ";color:" + allProps.CustomSiteHeaderColor + ";padding:3px;text-align:center'><b>" + allProps.CustomSiteHeaderText + "</b></div>").insertBefore("#suiteBarTop");
+                        } else {
+                            $("<div id='customHeader' class='ms-dialogHidden' style='background-color:" + allProps.CustomSiteHeaderBgColor + ";color:" + allProps.CustomSiteHeaderColor + ";padding:3px;text-align:center'><b>" + allProps.CustomSiteHeaderText + "</b></div>").insertAfter("#suiteBarTop");
+                        }
                     }
                     if (allProps.CustomSiteFooterEnabled == "true") {
                         $("<div id='customFooter' class='ms-dialogHidden' style='display:none;background-color:" + allProps.CustomSiteFooterBgColor + ";color:" + allProps.CustomSiteFooterColor + ";padding:3px;text-align:center'><b>" + allProps.CustomSiteFooterText + "</b></div>").insertAfter("#s4-bodyContainer");

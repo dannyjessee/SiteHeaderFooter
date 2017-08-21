@@ -43,6 +43,11 @@
 <body>
     <h1>Set site header/footer</h1>
     <input type="checkbox" id="chkHeaderEnabled" /> Enable header<br/>
+    <label for="ddHeaderLocation">Header location: </label>
+    <select ID="ddHeaderLocation">
+        <option value="above">Above #SuiteBarTop</option>
+        <option value="below">Below #SuiteBarTop</option>
+    </select><br />
     <label for="txtHeaderText">Header text: </label>
     <input type="text" ID="txtHeaderText" /><br />
     <label for="txtHeaderColor">Header color: </label>

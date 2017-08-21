@@ -3,7 +3,7 @@
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
      Name="SiteHeaderFooter"
      ProductID="{71d5c8b2-e1cd-4afa-b596-8dac18159b10}"
-     Version="1.0.0.0"
+     Version="1.1.0.0"
      SharePointMinVersion="15.0.0.0"
 >
   <Properties>

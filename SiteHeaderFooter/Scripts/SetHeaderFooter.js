@@ -24,6 +24,9 @@ DJ.SetHeaderFooter.GetValues = function () {
                 chkHeaderEnabled.checked = true;
             }
         }
+        if (allProps.CustomSiteHeaderLocation != undefined) {
+            ddHeaderLocation.value = allProps.CustomSiteHeaderLocation;
+        }
         if (allProps.CustomSiteHeaderText != undefined) {
             txtHeaderText.value = allProps.CustomSiteHeaderText;
         }
@@ -94,6 +97,7 @@ DJ.SetHeaderFooter.SetValues = function() {
             webProperties = hostWeb.get_allProperties();
             if (chkHeaderEnabled.checked) {
                 webProperties.set_item("CustomSiteHeaderEnabled", "true");
+                webProperties.set_item("CustomSiteHeaderLocation", ddHeaderLocation.value);
                 webProperties.set_item("CustomSiteHeaderText", txtHeaderText.value);
                 webProperties.set_item("CustomSiteHeaderColor", txtHeaderColor.value);
                 webProperties.set_item("CustomSiteHeaderBgColor", txtHeaderBgColor.value);
