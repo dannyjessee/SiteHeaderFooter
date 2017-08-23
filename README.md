@@ -4,7 +4,7 @@ This is the code for the SharePoint-hosted add-in that renders a custom header a
 
 [IMAGE]
 
-Note that this solution requires a separate [SharePoint Framework application customizer extension](https://github.com/dannyjessee/SPFxHeaderFooter) to render the header and footer on all modern pages within a SharePoint Online site. You can read more details about that [here](https://dannyjessee.com/blog/). <b>To use the application customizer extension, you must first install and configure this add-in.</b>
+Note that this solution requires a separate [SharePoint Framework application customizer extension](https://github.com/dannyjessee/SPFxHeaderFooter) to render the header and footer on all modern pages within a SharePoint Online site. You can read more details about that [here](https://dannyjessee.com/blog/index.php/2017/08/custom-modern-page-header-and-footer-using-sharepoint-framework-part-2/). <b>To use the application customizer extension, you must first install and configure this add-in.</b>
 
 ### Building the code (for local debugging)
 
