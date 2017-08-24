@@ -21,7 +21,8 @@ Note that this solution requires a separate [SharePoint Framework application cu
 - [Disable NoScript](https://dannyjessee.com/blog/index.php/2017/07/sharepoint-online-modern-team-sites-are-noscript-sites-but-communication-sites-are-not/) (if modern site)
 - Press F5 to build/deploy solution for local debugging
 - Trust the add-in when prompted
-- Click the app's tile in the Site Contents screen to launch the add-in, which initially deploys JS files and user custom actions to the host web
+- Click the app's tile in the Site Contents screen to launch the add-in, which initially deploys JS files and user custom actions to the host web (if you don't see the screen below, the add-in is not yet ready to use)
+![Add-in install complete](https://dannyjessee.com/blog/wp-content/uploads/2017/08/installaddin.png)
 
 ### Building the code (for production deployment)
 
@@ -33,7 +34,8 @@ Note that this solution requires a separate [SharePoint Framework application cu
 - [Disable NoScript](https://dannyjessee.com/blog/index.php/2017/07/sharepoint-online-modern-team-sites-are-noscript-sites-but-communication-sites-are-not/) (if modern site)
 - Add an app from target site
 - Trust the add-in when prompted
-- Click the app's tile in the Site Contents screen to launch the add-in, which initially deploys JS files and user custom actions to the host web
+- Click the app's tile in the Site Contents screen to launch the add-in, which initially deploys JS files and user custom actions to the host web (if you don't see the screen below, the add-in is not yet ready to use)
+![Add-in install complete](https://dannyjessee.com/blog/wp-content/uploads/2017/08/installaddin.png)
 
 ### Configuring the header and footer
 
